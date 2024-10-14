@@ -38,8 +38,10 @@ extension HomeTabBarViewController: HomeTabBarViewModelDelegate {
                                                         image: UIImage(named: "home_icon")?.resizeImage(width: 24),
                                                         tag: 0)
         homeTabbarItem.selectedImage = UIImage(named: "home_icon_fill")?.resizeImage(width: 24)
-        let vc1 = HomeTabBarItemTempViewController(bgColor: .blue)
-        vc1.tabBarItem = homeTabbarItem
+        let flowLayout = UICollectionViewFlowLayout()
+        let homeVM = HomeViewModel()
+        let homeVC = HomeCollectionViewController(collectionViewLayout: flowLayout, viewModel: homeVM)
+        homeVC.tabBarItem = homeTabbarItem
         
         // search
         let searchTabbarItem: UITabBarItem = UITabBarItem(title: "", image: UIImage(systemName: "magnifyingglass"), tag: 1)
@@ -70,7 +72,7 @@ extension HomeTabBarViewController: HomeTabBarViewModelDelegate {
         tabBar.tintColor = .black
         tabBar.unselectedItemTintColor = .black
         
-        viewControllers = [vc1, vc2, vc3, vc4, vc5]
+        viewControllers = [homeVC, vc2, vc3, vc4, vc5]
         delegate = self
     }
 }
