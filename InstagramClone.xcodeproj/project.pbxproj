@@ -6,6 +6,24 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		6A2A5BE02CF155BA00919595 /* HomeCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2A5BCC2CF155BA00919595 /* HomeCollectionViewController.swift */; };
+		6A2A5BE12CF155BA00919595 /* HomeTabBarItemTempViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2A5BCD2CF155BA00919595 /* HomeTabBarItemTempViewController.swift */; };
+		6A2A5BE22CF155BA00919595 /* HomeTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2A5BCE2CF155BA00919595 /* HomeTabBarViewController.swift */; };
+		6A2A5BE32CF155BA00919595 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2A5BD02CF155BA00919595 /* UIImage+Extension.swift */; };
+		6A2A5BE42CF155BA00919595 /* HomePostBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2A5BD22CF155BA00919595 /* HomePostBottomView.swift */; };
+		6A2A5BE52CF155BA00919595 /* HomePostHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2A5BD32CF155BA00919595 /* HomePostHeaderView.swift */; };
+		6A2A5BE62CF155BA00919595 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2A5BD52CF155BA00919595 /* HomeCollectionViewCell.swift */; };
+		6A2A5BE72CF155BA00919595 /* HomeTabBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2A5BD82CF155BA00919595 /* HomeTabBarViewModel.swift */; };
+		6A2A5BE82CF155BA00919595 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2A5BD92CF155BA00919595 /* HomeViewModel.swift */; };
+		6A2A5BE92CF155BA00919595 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2A5BDB2CF155BA00919595 /* AppDelegate.swift */; };
+		6A2A5BEA2CF155BA00919595 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2A5BDE2CF155BA00919595 /* SceneDelegate.swift */; };
+		6A2A5BEB2CF155BA00919595 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A2A5BDC2CF155BA00919595 /* Assets.xcassets */; };
+		6A2A5BEF2CF155BD00919595 /* InstagramCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2A5BED2CF155BD00919595 /* InstagramCloneTests.swift */; };
+		6A2A5BF32CF155BF00919595 /* InstagramCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2A5BF02CF155BF00919595 /* InstagramCloneUITests.swift */; };
+		6A2A5BF42CF155BF00919595 /* InstagramCloneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2A5BF12CF155BF00919595 /* InstagramCloneUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		6AF968CA2CBA9A0D007A5C67 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,41 +42,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6A2A5BCC2CF155BA00919595 /* HomeCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewController.swift; sourceTree = "<group>"; };
+		6A2A5BCD2CF155BA00919595 /* HomeTabBarItemTempViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBarItemTempViewController.swift; sourceTree = "<group>"; };
+		6A2A5BCE2CF155BA00919595 /* HomeTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBarViewController.swift; sourceTree = "<group>"; };
+		6A2A5BD02CF155BA00919595 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		6A2A5BD22CF155BA00919595 /* HomePostBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePostBottomView.swift; sourceTree = "<group>"; };
+		6A2A5BD32CF155BA00919595 /* HomePostHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePostHeaderView.swift; sourceTree = "<group>"; };
+		6A2A5BD52CF155BA00919595 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		6A2A5BD82CF155BA00919595 /* HomeTabBarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBarViewModel.swift; sourceTree = "<group>"; };
+		6A2A5BD92CF155BA00919595 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		6A2A5BDB2CF155BA00919595 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6A2A5BDC2CF155BA00919595 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A2A5BDD2CF155BA00919595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A2A5BDE2CF155BA00919595 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6A2A5BED2CF155BD00919595 /* InstagramCloneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramCloneTests.swift; sourceTree = "<group>"; };
+		6A2A5BF02CF155BF00919595 /* InstagramCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramCloneUITests.swift; sourceTree = "<group>"; };
+		6A2A5BF12CF155BF00919595 /* InstagramCloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramCloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6AF968B32CBA9A0B007A5C67 /* InstagramClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AF968C92CBA9A0D007A5C67 /* InstagramCloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstagramCloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AF968D32CBA9A0D007A5C67 /* InstagramCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstagramCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		6AF968DB2CBA9A0D007A5C67 /* Exceptions for "InstagramClone" folder in "InstagramClone" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 6AF968B22CBA9A0B007A5C67 /* InstagramClone */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		6AF968B52CBA9A0B007A5C67 /* InstagramClone */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				6AF968DB2CBA9A0D007A5C67 /* Exceptions for "InstagramClone" folder in "InstagramClone" target */,
-			);
-			path = InstagramClone;
-			sourceTree = "<group>";
-		};
-		6AF968CC2CBA9A0D007A5C67 /* InstagramCloneTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = InstagramCloneTests;
-			sourceTree = "<group>";
-		};
-		6AF968D62CBA9A0D007A5C67 /* InstagramCloneUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = InstagramCloneUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		6AF968B02CBA9A0B007A5C67 /* Frameworks */ = {
@@ -85,12 +88,97 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A2A5BCF2CF155BA00919595 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6A2A5BCC2CF155BA00919595 /* HomeCollectionViewController.swift */,
+				6A2A5BCD2CF155BA00919595 /* HomeTabBarItemTempViewController.swift */,
+				6A2A5BCE2CF155BA00919595 /* HomeTabBarViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6A2A5BD12CF155BA00919595 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6A2A5BD02CF155BA00919595 /* UIImage+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		6A2A5BD42CF155BA00919595 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				6A2A5BD22CF155BA00919595 /* HomePostBottomView.swift */,
+				6A2A5BD32CF155BA00919595 /* HomePostHeaderView.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		6A2A5BD62CF155BA00919595 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				6A2A5BD42CF155BA00919595 /* Component */,
+				6A2A5BD52CF155BA00919595 /* HomeCollectionViewCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		6A2A5BD72CF155BA00919595 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6A2A5BD62CF155BA00919595 /* Home */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6A2A5BDA2CF155BA00919595 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6A2A5BD82CF155BA00919595 /* HomeTabBarViewModel.swift */,
+				6A2A5BD92CF155BA00919595 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6A2A5BDF2CF155BA00919595 /* InstagramClone */ = {
+			isa = PBXGroup;
+			children = (
+				6A2A5BCF2CF155BA00919595 /* Controller */,
+				6A2A5BD12CF155BA00919595 /* Extension */,
+				6A2A5BD72CF155BA00919595 /* View */,
+				6A2A5BDA2CF155BA00919595 /* ViewModel */,
+				6A2A5BDB2CF155BA00919595 /* AppDelegate.swift */,
+				6A2A5BDC2CF155BA00919595 /* Assets.xcassets */,
+				6A2A5BDD2CF155BA00919595 /* Info.plist */,
+				6A2A5BDE2CF155BA00919595 /* SceneDelegate.swift */,
+			);
+			path = InstagramClone;
+			sourceTree = "<group>";
+		};
+		6A2A5BEE2CF155BD00919595 /* InstagramCloneTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A2A5BED2CF155BD00919595 /* InstagramCloneTests.swift */,
+			);
+			path = InstagramCloneTests;
+			sourceTree = "<group>";
+		};
+		6A2A5BF22CF155BF00919595 /* InstagramCloneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6A2A5BF02CF155BF00919595 /* InstagramCloneUITests.swift */,
+				6A2A5BF12CF155BF00919595 /* InstagramCloneUITestsLaunchTests.swift */,
+			);
+			path = InstagramCloneUITests;
+			sourceTree = "<group>";
+		};
 		6AF968AA2CBA9A0B007A5C67 = {
 			isa = PBXGroup;
 			children = (
-				6AF968B52CBA9A0B007A5C67 /* InstagramClone */,
-				6AF968CC2CBA9A0D007A5C67 /* InstagramCloneTests */,
-				6AF968D62CBA9A0D007A5C67 /* InstagramCloneUITests */,
+				6A2A5BDF2CF155BA00919595 /* InstagramClone */,
+				6A2A5BEE2CF155BD00919595 /* InstagramCloneTests */,
+				6A2A5BF22CF155BF00919595 /* InstagramCloneUITests */,
 				6AF968B42CBA9A0B007A5C67 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -120,9 +208,6 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				6AF968B52CBA9A0B007A5C67 /* InstagramClone */,
-			);
 			name = InstagramClone;
 			packageProductDependencies = (
 			);
@@ -143,9 +228,6 @@
 			dependencies = (
 				6AF968CB2CBA9A0D007A5C67 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				6AF968CC2CBA9A0D007A5C67 /* InstagramCloneTests */,
-			);
 			name = InstagramCloneTests;
 			packageProductDependencies = (
 			);
@@ -165,9 +247,6 @@
 			);
 			dependencies = (
 				6AF968D52CBA9A0D007A5C67 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				6AF968D62CBA9A0D007A5C67 /* InstagramCloneUITests */,
 			);
 			name = InstagramCloneUITests;
 			packageProductDependencies = (
@@ -225,6 +304,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A2A5BEB2CF155BA00919595 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +329,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A2A5BE02CF155BA00919595 /* HomeCollectionViewController.swift in Sources */,
+				6A2A5BE12CF155BA00919595 /* HomeTabBarItemTempViewController.swift in Sources */,
+				6A2A5BE22CF155BA00919595 /* HomeTabBarViewController.swift in Sources */,
+				6A2A5BE32CF155BA00919595 /* UIImage+Extension.swift in Sources */,
+				6A2A5BE42CF155BA00919595 /* HomePostBottomView.swift in Sources */,
+				6A2A5BE52CF155BA00919595 /* HomePostHeaderView.swift in Sources */,
+				6A2A5BE62CF155BA00919595 /* HomeCollectionViewCell.swift in Sources */,
+				6A2A5BE72CF155BA00919595 /* HomeTabBarViewModel.swift in Sources */,
+				6A2A5BE82CF155BA00919595 /* HomeViewModel.swift in Sources */,
+				6A2A5BE92CF155BA00919595 /* AppDelegate.swift in Sources */,
+				6A2A5BEA2CF155BA00919595 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +347,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A2A5BEF2CF155BD00919595 /* InstagramCloneTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +355,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A2A5BF32CF155BF00919595 /* InstagramCloneUITests.swift in Sources */,
+				6A2A5BF42CF155BF00919595 /* InstagramCloneUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
