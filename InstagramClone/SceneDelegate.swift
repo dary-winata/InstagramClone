@@ -19,9 +19,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let scene = (scene as? UIWindowScene) else { return }
         let window = UIWindow(windowScene: scene)
         
-        let tabBarVM = HomeTabBarViewModel()
-        let tabBarVC = HomeTabBarViewController(viewModel: tabBarVM)
-        let navigationController = UINavigationController(rootViewController: tabBarVC)
+        let loginVM = LoginViewModel()
+        let loginVC = LoginViewController(viewModel: loginVM)
+        let navigationController = UINavigationController(rootViewController: loginVC)
         window.rootViewController = navigationController
         navigationController.navigationBar.prefersLargeTitles = true
         self.window = window
