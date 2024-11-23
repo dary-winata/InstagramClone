@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import YPImagePicker
 
 class SignupViewController: UIViewController {
     private lazy var imageProfileButton: UIButton = {
@@ -19,6 +20,7 @@ class SignupViewController: UIViewController {
         button.layer.cornerRadius = 40
         button.backgroundColor = .gray
         button.translatesAutoresizingMaskIntoConstraints = false
+        button.addTarget(self, action: #selector(imageProfileButtonDidTapped), for: .touchUpInside)
         return button
     }()
     
@@ -112,6 +114,14 @@ class SignupViewController: UIViewController {
         return button
     }()
     
+    private lazy var ypImagePicker: YPImagePicker = {
+        var config = YPImagePickerConfiguration()
+        config.library.maxNumberOfItems = 1
+        config.showsPhotoFilters = false
+        config.screens = [.library]
+        return YPImagePicker(configuration: config)
+    }()
+    
     let viewModel: SignupViewModelProtocol
     
     init(viewModel: SignupViewModelProtocol) {
@@ -159,6 +169,10 @@ extension SignupViewController: SignupViewModelDelegate {
         loginStack.addArrangedSubview(loginLabel)
         loginStack.addArrangedSubview(loginButton)
     }
+    
+    func setupImageProfileButton(image: UIImage) {
+        self.imageProfileButton.setImage(image, for: .normal)
+    }
 }
 
 private extension SignupViewController {
@@ -170,5 +184,11 @@ private extension SignupViewController {
     @objc
     func signupButtonDidTapped() {
         print("registerButtonDidTapped")
+    }
+    
+    @objc
+    func imageProfileButtonDidTapped() {
+        viewModel.onProfileImageButtonDidTapped(picker: ypImagePicker)
+        present(ypImagePicker, animated: true)
     }
 }
