@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyBRbhv9JfVWxhANRX7x6xGEyG2o6--k5pE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1059055478527</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.fastcampus-learning.InstagramClone</string>
+	<key>PROJECT_ID</key>
+	<string>instagramclone-fa348</string>
+	<key>STORAGE_BUCKET</key>
+	<string>instagramclone-fa348.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1059055478527:ios:ed03617df9ad0d2c1bceca</string>
+</dict>
+</plist>

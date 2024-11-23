@@ -136,7 +136,9 @@ extension LoginViewController: LoginViewModelDelegate {
 private extension LoginViewController {
     @objc
     func signupButtonDidTapped() {
-        print("signup")
+        let signupVM = SignupViewModel()
+        let signupVC = SignupViewController(viewModel: signupVM)
+        self.navigationController?.pushViewController(signupVC, animated: true)
     }
     
     @objc
